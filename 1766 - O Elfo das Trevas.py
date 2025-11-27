@@ -1,5 +1,5 @@
-n = int(input())
-for i in range(n):
+t = int(input())
+for i in range(t):
     n, m = map(int, input().split())
     renas = list()
     for j in range(n):
@@ -11,4 +11,5 @@ for i in range(n):
     print("CENARIO {"+f"{i+1}"+"}")
     for j in range(m):
         print(f"{j+1} - {renas[j]['nome']}")
+
 
